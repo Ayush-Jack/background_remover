@@ -44,12 +44,24 @@ Once processed, click the "Download" button to save the image.
 Contributing 🤝
 Contributions are welcome! Here’s how you can help:
 
+STEP 1- Fork the repository.
+
+STEP 2 - Create a new branch:
+git checkout -b feature/your-feature-name
+
+STEP 3 - Commit your changes:
+git commit -m "Add your feature"
+
+STEP 4 - Push to the branch:
+git push origin feature/your-feature-name
+
+Open a pull request.
+
 License 📜
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 Acknowledgments 🙏
 remove.bg for their amazing background removal API.
-
 Font Awesome for the beautiful icons.
 Google Fonts for the typography.
 
@@ -58,7 +70,6 @@ For questions or feedback, feel free to reach out:
 
 Ayush Srivastava
 Email: ayushshrivastava362@gmail.com
-
 GitHub: @Ayush-Jack
 
 Made with ❤️ by Ayush Srivastava
