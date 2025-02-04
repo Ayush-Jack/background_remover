@@ -14,7 +14,7 @@ Responsive Design: Works seamlessly on desktop and mobile devices.
 Secure & Private: Images are processed securely and deleted after processing.
 
 Live Demo 🌐
-Check out the live demo: MagicEraser Live
+Check out the live demo: https://ayush-jack.github.io/background_remover/
 
 Technologies Used 🛠️
 Frontend: HTML, CSS, JavaScript
@@ -29,16 +29,6 @@ An API key from remove.bg
 
 Steps
 Clone the repository:
-
-bash
-Copy
-git clone https://github.com/Ayush-Jack/MagicEraser.git
-Navigate to the project directory:
-
-bash
-Copy
-cd MagicEraser
-Open script.js and replace 'YOUR_API_KEY' with your actual API key from remove.bg:
 
 Usage 🖼️
 Upload an Image:
