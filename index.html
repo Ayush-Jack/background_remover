@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Background Remover | Professional Photo Editing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.gif" alt="Logo">
+        </div>
+        <h1>Magic Background Remover</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#creator">Creator</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home" class="upload-section">
+            <h2>Remove Image Background in One Click</h2>
+            <p>Drag and drop image or click to upload</p>
+            
+            <div class="upload-zone" id="uploadZone">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>JPEG, PNG, or WebP up to 5MB</p>
+                <button class="btn" onclick="document.getElementById('fileInput').click()">
+                    Choose File
+                </button>
+            </div>
+            <input type="file" id="fileInput" accept="image/*">
+            
+            <div class="preview-section" id="previewSection">
+                <div class="image-container">
+                    <div class="image-box">
+                        <h3>Original Image</h3>
+                        <img id="originalPreview" src="#" alt="Original Preview">
+                    </div>
+                    <div class="image-box">
+                        <h3>Result</h3>
+                        <img id="resultPreview" src="#" alt="Result Preview">
+                        <a class="btn" id="downloadBtn" style="display: none;">Download</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="creator" class="creator-section">
+            <h2>Ayush Srivastava</h2>
+            <p>Hello! I am Ayush Srivastava, the creator of Magic Background Remover. I am passionate about photo editing and web development. This tool is designed to help you easily remove backgrounds from your images with just one click.</p>
+            <p>I hope you find it useful and enjoy using it as much as I enjoyed creating it. If you have any feedback or suggestions, feel free to reach out to me. Happy editing!</p>
+            <p>Thank you for using Magic Background Remover!</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/ayush_.exe_" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:ayushshrivastava362@gmail.com" class="social-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/Ayush-Jack" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Magic Background Remover. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
